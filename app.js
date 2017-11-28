@@ -19,10 +19,10 @@ app.use((req, res, next)=>{
 	next();
 });
 
-//More middleware.
-app.use((req, res, next)=>{
-	res.render('mantainance.hbs');
-});
+// //More middleware.
+// app.use((req, res, next)=>{
+// 	res.render('mantainance.hbs');
+// });
 
 //Middleware (express) Third-party add-on. 
 app.use(express.static(__dirname+'/public'));
